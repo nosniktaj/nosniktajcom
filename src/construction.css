@@ -1,0 +1,24 @@
+#construction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the viewport */
+    color: #049d5c;
+    text-align: center;
+}
+
+#construction div {
+    position: absolute;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-top: 60px;
+}
