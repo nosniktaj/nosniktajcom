@@ -11,6 +11,9 @@
 
 #construction div {
     position: absolute;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .title {
@@ -20,5 +23,5 @@
 
 .subtext {
     font-size: 18px;
-    margin-top: 60px;
+    margin-top: 15vh;
 }

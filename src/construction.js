@@ -13,7 +13,6 @@ function Construction() {
                 setShowSecondText(true);
             }}/>
             {showSecondText && <SubtextTypewriter/>}
-            {/*</div>*/}
         </div>
     );
 }
