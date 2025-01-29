@@ -6,22 +6,29 @@
     height: 100vh; /* Full height of the viewport */
     width: 100%; /* Full width of the viewport */
     color: #049d5c;
+    background-color: transparent;
+    position: relative; /* Allows stacking context */
     text-align: center;
+    z-index: 1;
+    pointer-events: none;
 }
 
 #construction div {
     position: absolute;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .subtext {
     font-size: 18px;
     margin-top: 15vh;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
